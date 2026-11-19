@@ -6,6 +6,8 @@ spring:
     aws:
       region:
         static: ap-southeast-2
+      s3:
+        bucket: ${bucket}
   datasource:
     url: ${url}
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -27,6 +29,7 @@ management:
 
 info:
   team-name: ${team-name:default-team}
+
 logging:
   level:
     com.member: INFO

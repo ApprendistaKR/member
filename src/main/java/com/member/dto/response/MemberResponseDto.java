@@ -1,4 +1,4 @@
-package com.member.dto;
+package com.member.dto.response;
 
 public class MemberResponseDto {
     //속성
