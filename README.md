@@ -21,15 +21,3 @@
 - **RDS 보안 그룹 스크린 샷**: ![img.png](img.png)
 
 ---
-
-## 3. API 명세
-
-### 3.1 팀원 정보 저장
-- **Endpoint**: `POST /api/members`
-- **Request Body (JSON)**
-  ```json
-  {
-    "name": "홍길동",
-    "age": 26,
-    "mbti": "INTJ"
-  }
