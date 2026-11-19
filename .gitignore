@@ -17,6 +17,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -35,3 +36,13 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### properties ###
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle Wrapper Properties 제외
+gradle/wrapper/gradle-wrapper.properties
