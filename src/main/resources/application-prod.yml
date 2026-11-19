@@ -1,11 +1,34 @@
 spring:
+  config:
+    import:
+      - aws-parameterstore:/
+  cloud:
+    aws:
+      region:
+        static: ap-southeast-2
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/member_db?serverTimezone=Asia/Seoul&characterEncoding=UTF-8}
+    url: ${url}
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: ${SPRING_DATASOURCE_USERNAME:root}
-    password: ${SPRING_DATASOURCE_PASSWORD:12345678}
-
+    username: ${username}
+    password: ${password}
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+
+info:
+  team-name: ${team-name:default-team}
+logging:
+  level:
+    com.member: INFO
+    io.awspring.cloud: TRACE
+    org.springframework.boot.context.config: TRACE
