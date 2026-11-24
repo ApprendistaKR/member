@@ -23,19 +23,20 @@
 ---
 
 ## 3. 동작 및 연동 증빙
-
 ### 3.1 서버 헬스 체크 및 정보 조회
+
 - **Actuator Health 응답**: `http://3.25.84.239:8080/actuator/health` 호출 결과(`UP` 상태 확인)
-    - ![스크린샷 2026-11-24 134252.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134252.png)
-    - ![스크린샷 2026-11-24 134438.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134438.png)
+  - ![Actuator Health 1](./images/health-1.png)
+  - ![Actuator Health 2](./images/health-2.png)
 - **Actuator Info 응답**: `http://3.25.84.239:8080/actuator/info` 호출 결과(Parameter Store 설정값 반영 확인)
-    - ![스크린샷 2026-11-24 134318.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134318.png)
-    - ![스크린샷 2026-11-24 134424.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134424.png)
+  - ![Actuator Info 1](./images/info-1.png)
+  - ![Actuator Info 2](./images/info-2.png)
 
 ### 3.2 팀원 저장·조회 API 호출 결과
+
 - **요청/응답 확인**: `POST /api/members` 및 `GET /api/members/1` 호출 화면 및 서버 로그(`ApiLoggingInterceptor`)
-    - ![스크린샷 2026-11-24 134602.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134602.png)
-    - ![스크린샷 2026-11-24 134635.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134635.png)
-    - ![스크린샷 2026-11-24 135114.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20135114.png)
+  - ![API 결과 1](./images/api-1.png)
+  - ![API 결과 2](./images/api-2.png)
+  - ![API 결과 3](./images/api-3.png)
   
 ---
