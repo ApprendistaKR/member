@@ -1,4 +1,4 @@
-package com.member.dto;
+package com.member.dto.request;
 
 public class MemberCreateRequestDto {
 

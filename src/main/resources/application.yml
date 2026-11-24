@@ -1,6 +1,15 @@
 spring:
   profiles:
     active: prod
+  cloud:
+    aws:
+      region:
+        # AWS Region
+        static: ap-southeast-2
+  servlet:
+    multipart:
+      # 파일 업로드 크기 제한
+      max-file-size: 10MB
 
 management:
   endpoints:

@@ -1,7 +1,7 @@
 package com.member.controller;
 
-import com.member.dto.MemberCreateRequestDto;
-import com.member.dto.MemberResponseDto;
+import com.member.dto.request.MemberCreateRequestDto;
+import com.member.dto.response.MemberResponseDto;
 import com.member.service.MemberService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

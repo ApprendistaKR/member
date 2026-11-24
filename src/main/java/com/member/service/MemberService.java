@@ -1,7 +1,7 @@
 package com.member.service;
 
-import com.member.dto.MemberCreateRequestDto;
-import com.member.dto.MemberResponseDto;
+import com.member.dto.request.MemberCreateRequestDto;
+import com.member.dto.response.MemberResponseDto;
 import com.member.entity.Member;
 import com.member.repository.MemberRepository;
 import org.springframework.stereotype.Service;

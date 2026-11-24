@@ -1,4 +1,10 @@
 spring:
+  cloud:
+    aws:
+      region:
+        static: ap-southeast-2
+      s3:
+        bucket: member-prod-files
   datasource:
     url: jdbc:h2:mem:memberdb;MODE=MySQL;DB_CLOSE_DELAY=-1
     driver-class-name: org.h2.Driver
