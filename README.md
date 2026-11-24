@@ -26,7 +26,7 @@
 
 ### 3.1 서버 헬스 체크 및 정보 조회
 - **Actuator Health 응답**: `http://3.25.84.239:8080/actuator/health` 호출 결과(`UP` 상태 확인)
-    - ![img.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134252.png)
+    - ![스크린샷 2026-11-24 134252.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134252.png)
     - ![스크린샷 2026-11-24 134438.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134438.png)
 - **Actuator Info 응답**: `http://3.25.84.239:8080/actuator/info` 호출 결과(Parameter Store 설정값 반영 확인)
     - ![스크린샷 2026-11-24 134318.png](../../Users/%EC%A0%95%EC%9E%AC%EC%9B%90/Pictures/Screenshots/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-11-24%20134318.png)
